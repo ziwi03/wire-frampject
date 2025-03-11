@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    background-color: #ffe6f0; /* Light pink background */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cutesy font */
+    color: #d147a3; /* Dark pink font color */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff66b2; /* Pink background */
+}
+
+.navbar-brand {
+    color: #fff; /* White text */
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #ff66b2; /* Pink background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #e0559f; /* Slightly darker pink */
+}
+
+/* Table */
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #ffd1e8; /* Light pink for odd rows */
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #fff; /* White for even rows */
+}
+
+.table thead {
+    background-color: #ff66b2; /* Pink header */
+    color: #fff; /* White text */
+}
+
+/* Form */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 2px solid #ff66b2;
+}
+
+/* Containers */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}

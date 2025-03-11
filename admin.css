@@ -1,0 +1,82 @@
+/* General Body Styles */
+body {
+    background-color: #000; /* Black background */
+    font-family: Arial, sans-serif; /* Basic sans-serif font */
+    color: #fff; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Dark gray background */
+    padding: 10px 20px;
+}
+.navbar .navbar-brand {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #222; /* Slightly darker gray */
+    color: #fff;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    width: 200px;
+}
+.sidebar .nav-link {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.sidebar .nav-link:hover {
+    background-color: #444; /* Lighter gray on hover */
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 220px; /* Width of the sidebar + some spacing */
+    padding: 20px;
+}
+.main-content h2 {
+    border-bottom: 2px solid #444; /* Underline effect */
+    padding-bottom: 10px;
+}
+.main-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+.main-content table th, .main-content table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+.main-content table th {
+    background-color: #333;
+}
+.main-content table tr:nth-child(even) {
+    background-color: #111; /* Slightly lighter black for zebra striping */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #555; /* Medium gray */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #777; /* Lighter gray on hover */
+}
